@@ -6,21 +6,12 @@
     <title>Onix Manager — Soluciones Digitales</title>
     
     <!-- Open Graph (Facebook, LinkedIn, WhatsApp...) -->
-    <meta property="og:title" content="Onix Manager - Soluciones Digitales">
-    <meta property="og:description" content="Educación financiera, tecnología blockchain y desarrollo de proyectos digitales.">
-    <meta property="og:image" content="https://res.cloudinary.com/demeahktg/image/upload/v1777296159/onixmanagerLogo_g3snjx.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://onixmanager.tecnologiasonix.com/">
-    <meta property="og:site_name" content="Onix Manager">
-    <meta property="og:locale" content="es_ES">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Onix Manager - Soluciones Digitales">
     <meta name="twitter:description" content="Educación financiera, tecnología blockchain y desarrollo de proyectos digitales.">
-    <meta name="twitter:image" content="https://res.cloudinary.com/demeahktg/image/upload/v1777296159/onixmanagerLogo_g3snjx.png">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/onixmannager/Landingpage/refs/heads/main/logoonixmanager.ico">
     <meta name="twitter:site" content="@OMannager">
     
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -134,20 +125,16 @@
             grid-template-columns: repeat(6, 1fr);
             gap: 1rem;
         }
-        .bento-card:nth-child(1) { grid-column: span 2; }
-        .bento-card:nth-child(2) { grid-column: span 2; }
-        .bento-card:nth-child(3) { grid-column: span 2; }
-        .bento-card:nth-child(4) { grid-column: span 3; }
-        .bento-card:nth-child(5) { grid-column: span 3; }
-        .bento-card:nth-child(6) { grid-column: span 6; }
 
-        /* accent colors por proyecto */
-        .bento-card:nth-child(1) { --ac: #00b4d8; }
-        .bento-card:nth-child(2) { --ac: #e8a020; }
-        .bento-card:nth-child(3) { --ac: #34d399; }
-        .bento-card:nth-child(4) { --ac: #A0060E; }
-        .bento-card:nth-child(5) { --ac: #a78bfa; }
-        .bento-card:nth-child(6) { --ac: #e0f7ff; }
+        /* accent colors y ubicación de tarjetas (primera sección) */
+        .bento-card:nth-child(1) { --ac: #00b4d8; grid-column: span 2; }
+        .bento-card:nth-child(2) { --ac: #e8a020; grid-column: span 2; }
+        .bento-card:nth-child(3) { --ac: #34d399; grid-column: span 2; }
+        .bento-card:nth-child(4) { --ac: #A0060E; grid-column: span 3; }
+        .bento-card:nth-child(5) { --ac: #a78bfa; grid-column: span 3; }
+        .bento-card:nth-child(6) { --ac: #e0f7ff; grid-column: span 2; }   /* LeadGen Ai */
+        .bento-card:nth-child(7) { --ac: #f06292; grid-column: span 2; }   /* Eider Ai */
+        .bento-card:nth-child(8) { --ac: #448aff; grid-column: span 2; }   /* Lynx Market */
 
         .bento-card {
             background: var(--surface);
@@ -347,7 +334,7 @@
             </div>
         </div>
         <div class="hero-image">
-            <img src="https://res.cloudinary.com/demeahktg/image/upload/v1777297412/onixmanager_1_ck8dak.webp" width="220" height="220" loading="eager" decoding="async" class="profile-pic" onerror="this.src='https://raw.githubusercontent.com/onixmannager/Landingpage/main/logoonixmanager%20(2).png'">
+            <img src="https://raw.githubusercontent.com/onixmannager/Landingpage/refs/heads/main/onixmanager.webp" width="220" height="220" loading="eager" decoding="async" class="profile-pic" onerror="this.src='https://raw.githubusercontent.com/onixmannager/Landingpage/main/logoonixmanager%20(2).png'">
         </div>
     </div>
 
@@ -400,7 +387,7 @@
                 <div class="bento-icon"><i class="fas fa-graduation-cap"></i></div>
                 <h3>Onix Crypto Manager</h3>
                 <p>Plataforma de educación financiera y cripto con cursos, herramientas y comunidad.</p>
-                <a href="https://criptomanager.tecnologiasonix.com" class="bento-link">Explorar <i class="fas fa-arrow-right"></i></a>
+                <a href="index.html" class="bento-link">Explorar <i class="fas fa-arrow-right"></i></a>
             </div>
 
             <div class="bento-card reveal rd4">
@@ -427,6 +414,71 @@
                 <span class="bento-soon">Próximamente</span>
             </div>
 
+            <div class="bento-card reveal rd1">
+                <div class="bento-tag">B2B · Ia</div>
+                <div class="bento-icon"><i class="fas fa-bullhorn"></i></div>
+                <h3>LeadGen Ai</h3>
+                <p>Captador de clientes investigados con Ia, campañas de email marketing y telefonica.</p>
+                <span class="bento-soon">Próximamente</span>
+            </div>
+
+             <div class="bento-card reveal rd2">
+                <div class="bento-tag">B2B · Ia</div>
+                <div class="bento-icon"><i class="fas fa-bullhorn"></i></div>
+                <h3>Eider Ai</h3>
+                <p>Chat inteligente capaz de gestionar como asistente de cualquier negocio.</p>
+                <span class="bento-soon">Próximamente</span>
+            </div>
+
+            <div class="bento-card reveal rd3">
+                <div class="bento-tag">Crypto · Web3</div>
+                <div class="bento-icon"><i class="fas fa-bullhorn"></i></div>
+                <h3>Lynx Market</h3>
+                <p>TOP SECRET.</p>
+                <span class="bento-soon">Próximamente</span>
+            </div>
+
+        </div>
+    </div>
+
+     <!-- ════ PROYECTOS PARA TERCEROS ════ -->
+    <div class="section reveal">
+        <div class="section-header">
+            <div class="eyebrow">Proyectos Para Terceros</div>
+            <h2>Plataformas y servicios activos que he creado para terceros</h2>
+        </div>
+        <div class="projects-bento">
+            <div class="bento-card reveal rd4">
+                <div class="bento-tag">Cripto · web3</div>
+                <div class="bento-icon"><i class="fas fa-coins"></i></div>
+                <h3>LottoSol</h3>
+                <p>Loteria descentralizada en la red blockchain de solana.</p>
+                <a href="https://lottery-solana-psi.vercel.app/" class="bento-link">Explorar <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="bento-card reveal rd1">
+                <div class="bento-tag">Crypto · Web3</div>
+                <div class="bento-icon"><i class="fas fa-globe"></i></div>
+                <h3>1percent</h3>
+                <p>El primer token crypto integrado como moneda de pago en comercios físicos reales.</p>
+                <a href="https://www.1percent-crypto.com/" class="bento-link">Explorar <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="bento-card reveal rd2">
+                <div class="bento-tag">Landing · Reformas</div>
+                <div class="bento-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h3>Drew Nt Services</h3>
+                <p>Sitio web con envio de presupuesto directamente a whatssap.</p>
+                <a href="https://www.drewntservices.com" class="bento-link">Explorar <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="bento-card reveal rd3">
+                <div class="bento-tag">Juego Interactivo</div>
+                <div class="bento-icon"><i class="fas fa-film"></i></div>
+                <h3>The Cube</h3>
+                <p>Cubo de rubik 3d interactivo.</p>
+                <a href="https://cuboderubik.vercel.app/" class="bento-link">Explorar <i class="fas fa-arrow-right"></i></a>
+            </div>
         </div>
     </div>
 
@@ -496,7 +548,6 @@
 
 <script>
     // ── Animaciones de revelación (scroll) ──
-    // Fallback para WebViews que no soporten IntersectionObserver (FB/IG in-app)
     if (!('IntersectionObserver' in window)) {
         document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
     } else {
